@@ -15,7 +15,7 @@ in "webpage.html", create a new button for your new cell
 it's done !
 
 upgrade possible:
-Water dynamic: water may take some times to flatten
-Cell on the extremity does not work properly (to avoid out of range error) --> not a good way to do it
-add velocity to cell ? in order to allow explosions
-add pressure to liquide cell ? that may allow interesting simulation, but may take a lot of computational power
+Water dynamic: water may take some times to flatten.
+Cell on the extremity does not work properly (to avoid out of range error) --> not a good way to do it.
+add velocity to cell ? in order to allow explosions.
+add pressure to liquide cell ? that may allow interesting simulatio.n, but may take a lot of computational power.
