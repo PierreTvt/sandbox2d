@@ -1,0 +1,68 @@
+<!doctype html>
+
+
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>cell grid</title>
+	
+</head>
+<body onload="draw();">
+	<h1>Test de grille: simulation de sable</h1>
+	<canvas id="myCanvas" width="1000" height="500">
+		Navigateur pas compatible: t'utilise la premiere version d'Internet Explorer ou c'est comment ?
+	</canvas>
+	<br/>
+	<h2>Choix du materiaux</h2>
+	<button onClick="brushCell=createSandCell;">
+		sable
+	</button>
+	<button onClick="brushCell=createWaterCell;">
+		eau
+	</button>
+	<button onClick="brushCell=createMetalCell;">
+		métal
+	</button>
+	<button onClick="brushCell=createAcideCell;">
+		acide liquide
+	</button>
+	<button onClick="brushCell=createNothingCell;">
+		effacer
+	</button>
+	<h2>Couleur du sable</h2>
+	<button onClick="couleurSable='random';">
+		jaune aléatoire
+	</button>
+	<button onClick="couleurSable='jaune';">
+		jaune unis
+	</button>
+	<button onClick="couleurSable='bleu';">
+		bleu
+	</button>
+	<button onClick="couleurSable='rouge';">
+		rouge
+	</button>
+	<button onClick="couleurSable='vert';">
+		vert
+	</button>
+	<h2>Bouton random</h2>
+	<button id="clear" onClick="clearCanvas();">
+		clear canvas
+	</button>
+	<button id="draw1" onClick="dessin1(document.getElementById('myCanvas').getContext('2d'));">
+		dessin 1
+	</button>
+	<button id="drawCell" onClick="draw();">
+		draw cell
+	</button>
+	<button id="updateCell" onClick="updateMap();">
+		update cell
+	</button>
+	<button id="brush" onClick="brush(50,50,5);">
+		brush 50 50 size: 5
+	</button>
+	
+	
+	<script src="test_cell.js"></script>
+</body>
+</html>

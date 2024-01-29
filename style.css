@@ -1,0 +1,12 @@
+
+body {
+	background-color: lightgrey;
+}
+
+h1 {
+	text-align: center;
+}
+
+#myCanvas {
+	border: 2px solid black;
+}
